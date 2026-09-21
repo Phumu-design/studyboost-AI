@@ -9,23 +9,51 @@
     <body>
         <header>
             <div class="header-container">
-                <div class="logo">StudyBoost AI</div>
-                <input type="checkbox" id="menu-toggle">
-                <label for="menu-toggle" class="menu-icon">☰</label>
-                <nav id="main-nav">
-                    <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="motivation.html">Motivation</a></li>
-                    </ul>
-                </nav>
+                <!-- Rocket 1: Logo Rocket (with astronaut inside)-->
+                 <a href="index.html" class="logo">
+                    <div class="logo-rocket">
+                        <div class="rocket-body">
+                            <div class="rocket-window">
+                                <div class="astronaut"></div>
+                            </div>
+                        </div>
+                        <div class="rocket-fin left"></div>
+                        <div class="rocket-fin right"></div>
+                        <div class="rocket-flame"><</div>
+                    <span class="logo-text">StudyBoost AI</span>
+                 </a>
+                 <input type="checkbox" id="menu-toggle">
+                 <label for="menu-toggle" class="menu-icon">☰</label>
 
-                </div>
+                 <nav id="main-nav">
+                    <ul>
+                        <!-- Rocket 2:Profile rocket with user inside -->
+                         <li class="nav-profile-item">
+                            <a href="#" class="profile-link">
+                                <div class="profile-rocket">
+                                    <div class="rocket-body">
+                                        <div class="rocket-window">
+                                            <div class="user-head"></div>
+                                        </div>
+                                    </div>
+                                    <div class="rocket-fin left"></div>
+                                    <div class="rocket-fin right"></div>
+                                    <div class="rocket-flame"></div>
+                                </div>
+                                <span class="profile-text">My Profile</span>
+                            </a>
+                         </li>
+
+                         <li><a href="index.html" class="active">Home</a></li>
+                         <li><a href="features.html">Features</a></li>
+                         <li><a href="motivation.html">Motivation</a></li>
+                    </ul>
+                 </nav>
             </div>"
         </header>
         <main>
             <div class="grid-container">
-                <!-- Hero Section with Astronaut -->
+                <!--  Astronaut AI figure -->
                 <section id="hero" class="hero">
                     <!-- Tiny Astronaut HTML -->
                     <div class="astronaut"></div>
@@ -41,12 +69,26 @@
 
                     <h1>Welcome to StudyBoost AI</h1>
                     <p>Your personal AI co-pilot for focused, balanced study sessions - among the stars and beyond.</p>
+                    <!-- Rocket 3: Launch rocket (fires when a study session is initiated)-->
+                     <div class="launch-container">
+                        <input type="checkbox" id="lauch-toggle">
+                        <label for="launch-toggle" class="btn launch-btn">Start Study Session</label>
+                        <div class="rocket-to-launch">
+                            <div class="rocket-body"></div>
+                            <div class="rocket-window"><</div>
+                        </div>
+                        <div class="rocket-fin left"></div>
+                        <div class="rocket-fin right"></div>
+                        <div class="rocket-flame"></div>
+                        </div>
+                     </div>
                     </section>
 
                     <!-- Mission Section -->
                     <section id="mission" class="card mission">
                         <h2>Our Mission</h2>
                         <p>We help students build healthier study habits, get break reminders, and stay focused through AI-inspired features.</p>
+                    </section>
             </div>
         </main>
 
