@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBoost AI - Motivation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <!-- Rocket 1: Logo rocket(with astronaut inside) -->
+            <a href="index.html" class="logo">
+                <div class="logo-rocket">
+                    <div class="rocket-body">
+                        <div class="rocket-window">
+                            <div class="astronaut"></div>
+                        </div>
+                    </div>
+                    <div class="rocket-fin left"></div>
+                    <div class="rocket-fin right"></div>
+                    <div class="rocket-flame"></div>
+                </div>
+                <span class="logo-text">StudyBoost AI</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <nav id="main-nav">
+                <ul>
+                    <!-- Rocket 2: Profile rocket with user inside -->
+                    <li class="nav-profile-item">
+                        <a href="#" class="profile-link">
+                            <div class="profile-rocket">
+                                <div class="rocket-body">
+                                    <div class="rocket-window">
+                                        <div class="user-head"></div>
+                                    </div>
+                                </div>
+                                <div class="rocket-fin left"></div>
+                                <div class="rocket-fin right"></div>
+                                <div class="rocket-flame"></div>
+                            </div>
+                            <span class="profile-text">My Profile</span>
+                        </a>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="motivation.html" class="active">Motivation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Get Motivated</h2>
+        <p>Here's three quotes to fuel your journey through the stars.</p>
+
+        <section class="quote-section">
+            <div class="ai-peek">
+                <div class="astronaut astronaut--peek">
+                    <div class="helmet"><div class="visor"></div></div>
+                    <div class="body"></div>
+                </div>
+                <div class="ai bubble">
+                    <p>Here's your daily boost!</p>
+                </div>
+            </div>
+
+            <article class="quote-card">
+                <blockquote>"The secret of getting ahead is getting started."</blockquote>
+                <cite>- Mark Twain</cite>
+                <button class="btn train-btn">Train AI</button>
+            </article>
+
+            <article class="quote-card">
+                <blockquote>"You don't have to be great to start, but you have to start to be great."</blockquote>
+                <cite>- Zig Ziglar</cite>
+                <button class="btn train-btn">Train AI</button>
+            </article>
+
+            <article class="quote-card">
+                <blockquote>"Success is the sum of small efforts repeated day in and day out."</blockquote>
+                <cite>- Robert Collier</cite>
+                <button class="btn train-btn">Train AI</button>
+            </article>
+        </section>
+
+        <section class="contribute-section">
+            <h3>Share your own Motivation</h3>
+            <p>In future updates, you'll be able to contribute your favouritemotivational quotes to help train our AI co-pilot!For now, see how it might look below:</p>
+            <form id="quote-form">
+                <div class="form-group">
+                    <label for="quote">Your favorite quote:</label>
+                    <input type="text" id="quote" name="quote" placeholder="Enter your quote here">
+                </div>
+                <button type="submit" class="btn">Submit to AI</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 StudyBoost AI. All rights reserved.
+    </footer>
